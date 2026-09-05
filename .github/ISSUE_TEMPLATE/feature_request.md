@@ -1,37 +1,16 @@
 ---
-name: Feature Request
-about: Suggest a new detection category, integration, or capability
-title: '[Feature] '
-labels: enhancement
-assignees: ''
+name: Feature request
+about: Suggest an improvement
 ---
 
-## Summary
+## What would you like to improve?
 
-A clear and concise description of the feature you're proposing.
+Describe the workflow and the user who benefits.
 
-## Motivation
+## Why does it matter?
 
-Why is this needed? What problem does it solve? What attack or risk does it address?
+What is difficult, slow, or error-prone today?
 
-## Proposed Solution
+## Proposed direction
 
-Describe the solution you'd like. Include any API design or configuration ideas.
-
-```typescript
-// Example of how it might look in code
-```
-
-## Alternatives Considered
-
-Other approaches you've considered and why you ruled them out.
-
-## References
-
-- Related OWASP LLM Top 10 item (if applicable):
-- Research paper or CVE (if applicable):
-- Similar implementations in other tools:
-
-## Additional Context
-
-Any other context, diagrams, or examples.
+Share an approach if you have one.

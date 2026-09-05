@@ -1,39 +1,14 @@
-## Summary
+## What changed?
 
-<!-- What does this PR do? One or two sentences. -->
+Describe the user-facing change.
 
-## Type of Change
+## Why?
 
-- [ ] Bug fix
-- [ ] New feature / detection category
-- [ ] SDK integration
-- [ ] Documentation
-- [ ] Refactor / performance
-- [ ] Tests
+Link the issue or explain the workflow this improves.
 
-## Related Issues
+## Checks
 
-Closes #<!-- issue number -->
-
-## Changes
-
-<!-- List the key changes in this PR -->
-
-- 
-
-## Testing
-
-<!-- How did you test this? -->
-
-- [ ] Added unit tests
-- [ ] Added integration tests
-- [ ] Manually tested with a real LLM provider
-- [ ] All existing tests pass (`npm test`)
-
-## Checklist
-
-- [ ] Code follows the project's TypeScript strict standards
-- [ ] Public APIs have JSDoc comments
-- [ ] Documentation updated (if API changed)
-- [ ] No `console.log` in production code
-- [ ] SECURITY.md updated (if security-relevant)
+- [ ] I ran pnpm run typecheck.
+- [ ] I ran pnpm run build.
+- [ ] I checked responsive layout and keyboard focus states.
+- [ ] I removed credentials and private document data.
