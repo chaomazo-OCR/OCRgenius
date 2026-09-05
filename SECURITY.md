@@ -1,33 +1,21 @@
 # Security Policy
 
-## Supported Versions
+## Supported versions
 
 | Version | Supported |
-|---------|-----------|
-| 1.x     | ✅ |
-| < 1.0   | ❌ |
+| --- | --- |
+| 1.x | Yes |
+| < 1.0 | No |
 
-## Reporting a Vulnerability
+## Reporting a vulnerability
 
-**Please do not report security vulnerabilities through public GitHub issues.**
+Please do not report security vulnerabilities through public issues. Email security@ocr-genius.com with a description, impact, reproduction steps, and proof of concept if applicable.
 
-If you discover a security vulnerability in SentryLLM, please report it by emailing **security@sentryllm.xyz**.
+We acknowledge reports within 48 hours and aim to address critical issues within 7 days. We follow responsible disclosure and credit reporters in release notes unless they prefer anonymity.
 
-Include as much detail as possible:
+## Secure handling principles
 
-- A description of the vulnerability and its potential impact
-- Steps to reproduce the issue
-- Any proof-of-concept code (if applicable)
-- Your suggested fix (optional)
-
-We will acknowledge your report within **48 hours** and aim to provide a fix within **7 days** for critical issues.
-
-We follow responsible disclosure — we will credit you in the release notes unless you prefer to remain anonymous.
-
-## Security Best Practices for SentryLLM Users
-
-- Never commit your `SENTRY_LLM_KEY` to source control — use environment variables
-- Rotate your API key if you suspect it has been exposed
-- Use the `strict` policy in production environments
-- Enable alerting so you are notified of threats in real time
-- Review the threat dashboard regularly at [sentryllm.xyz](http://www.sentryllm.xyz/)
+- Never commit credentials, API keys, or customer documents.
+- Keep document processing isolated from unrelated workloads.
+- Treat low-confidence extraction as a review event, not an automatic success.
+- Use environment variables for local and deployed configuration.
