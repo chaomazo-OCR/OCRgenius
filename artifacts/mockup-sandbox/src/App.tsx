@@ -1,4 +1,4 @@
-import { FormEvent, useState } from "react";
+import { type FormEvent, useState } from "react";
 
 const steps = [
   ["01", "Drop in", "Send a bill of lading, CMR, invoice, or any document your operation handles every day."],
